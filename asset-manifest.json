@@ -1,17 +1,16 @@
 {
   "files": {
-    "main.css": "/ai-festival/static/css/main.aaee3934.css",
-    "main.js": "/ai-festival/static/js/main.e42b0e3e.js",
+    "main.css": "/ai-festival/static/css/main.d5212790.css",
+    "main.js": "/ai-festival/static/js/main.b54b8b30.js",
     "static/js/787.6ddc82e5.chunk.js": "/ai-festival/static/js/787.6ddc82e5.chunk.js",
     "static/media/jade.png": "/ai-festival/static/media/jade.e424c90d59c3c9aa5e78.png",
-    "static/media/logo.svg": "/ai-festival/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/ai-festival/index.html",
-    "main.aaee3934.css.map": "/ai-festival/static/css/main.aaee3934.css.map",
-    "main.e42b0e3e.js.map": "/ai-festival/static/js/main.e42b0e3e.js.map",
+    "main.d5212790.css.map": "/ai-festival/static/css/main.d5212790.css.map",
+    "main.b54b8b30.js.map": "/ai-festival/static/js/main.b54b8b30.js.map",
     "787.6ddc82e5.chunk.js.map": "/ai-festival/static/js/787.6ddc82e5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.aaee3934.css",
-    "static/js/main.e42b0e3e.js"
+    "static/css/main.d5212790.css",
+    "static/js/main.b54b8b30.js"
   ]
 }
