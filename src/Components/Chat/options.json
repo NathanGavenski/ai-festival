@@ -1,0 +1,27 @@
+{
+    "AI Now Institute": {
+        "image": "https://ainowinstitute.org/wp-content/uploads/2023/04/favicon.png",
+        "text": "AI Now Institute - The AI Now Institute is a research institute focused on the social implications of artificial intelligence. They work to identify and address issues of bias and fairness in AI and machine learning, and they produce research, policy recommendations, and educational materials to help promote responsible AI development.",
+        "link": "https://ainowinstitute.org/"
+    },
+    "VizWiz": {
+        "image": "https://vizwiz.org/wp-content/uploads/2019/05/logo-name1.png",
+        "text": "VizWiz - VizWiz is a project focused on making visual information accessible to blind and visually impaired people using computer vision and AI. They work to address issues of bias and fairness in AI by promoting the development of more inclusive and accessible AI technologies.",
+        "link": "https://vizwiz.org/"
+    },
+    "The Algorithmic Justice League": {
+        "image": "https://upload.wikimedia.org/wikipedia/en/f/f3/Algorithmic_Justice_League_Logo.png",
+        "text": "The Algorithmic Justice League - The Algorithmic Justice League is an advocacy organization focused on addressing issues of bias and discrimination in AI and machine learning. They produce educational resources and toolkits, organize community events and workshops, and work to raise awareness of the impact of AI on marginalized communities.",
+        "link": "https://www.ajl.org/"
+    },
+    "Data Science for Social Good": {
+        "image": "https://eutopia-university.eu/medias/photo/data-science-for-social-good_1645021343195-png",
+        "text": "Data Science for Social Good - Data Science for Social Good is a program that brings together data scientists, computer scientists, and social sector experts to work on projects that address pressing social issues. They work on a range of topics, from healthcare and education to criminal justice and climate change, and they prioritize projects that have the potential to benefit underrepresented communities.",
+        "link": "https://www.datascienceforsocialgood.org/"
+    },
+    "Safe & Trusted AI": {
+        "image": "https://www.kcl.ac.uk/newimages/ai/thumbnail-368-x-208/stai-cdt-full-logo.jpg",
+        "text": "",
+        "link": "https://safeandtrustedai.org/"
+    }
+}

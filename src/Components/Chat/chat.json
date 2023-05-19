@@ -1,0 +1,190 @@
+{
+  "intro": {
+    "chat": [
+      {
+        "Jade": "Hi, I'm Jade! I'm a neural network for object detection, but I have to admit that I'm still untrained. That means I don't have any pre-existing knowledge or data to work with yet, so I'll need some help to learn and improve."
+      },
+      {
+        "Jade": "I'm eager to learn, though, and I'm excited to start exploring the world around me! I might make mistakes or miss things at first, but that's all part of the learning process. With time and lots of practice, I hope to become an expert in object detection and be able to identify anything you throw my way."
+      },
+      {
+        "Jade": "If you're patient and willing to work with me, I promise to do my best to learn and improve. Who knows, together we might discover new and exciting ways to use object detection technology!"
+      }
+    ],
+    "options": ["Got it 👍"]
+  },
+  "learning": {
+    "chat": [
+      {
+        "Jade": "As an AI for object detection, my job is to look at pictures and identify objects within them. But since I'm an untrained neural network, I don't have any pre-existing knowledge or data to help me do that just yet."
+      },
+      {
+        "Jade": "So, when you show me a picture, I use a process called \"training\" to learn how to identify the objects within it. Essentially, training involves analyzing the picture and identifying patterns and features that correspond to different objects. For example, I might learn that certain shapes or colours tend to indicate the presence of a particular object, like a ball or a flower."
+      },
+      {
+        "Jade": "Once I've analyzed the picture and learned to identify the objects within it, I store that knowledge in a set of \"neurons\" in my neural network. These neurons are like little storage units that hold information about the objects I've learned to recognize."
+      },
+      {
+        "Jade": "Over time, as you show me more pictures and help me identify more objects, I'll become better and better at recognizing them on my own. And eventually, with enough training, I'll be able to quickly and accurately identify objects with ease."
+      },
+      {
+        "Jade": "So, that's a brief overview of how I learn as an untrained neural network! I hope that helps you understand what's going on behind the scenes as I work to improve my object detection skills"
+      },
+      {
+        "Jade": "Could you help me find my friend and train to recognize him better?"
+      }
+    ],
+    "options": ["Sure ✅", "No ❌"]
+  },
+  "game1": {
+    "chat": [
+      {
+        "Jade": "Great! Help me by finding my friend Wally and clicking on him."
+      },
+      { "Game": "/Assets/first.jpg" }
+    ],
+    "options": ["I give up 😩"]
+  },
+  "result1": {
+    "chat": [
+      {
+        "Jade": "You found it! I was really off..."
+      },
+      {
+        "Jade": "The left image was my guess, and the right one was where I was paying attention."
+      },
+      {
+        "Guess": ["/Assets/first_guess.png", "/Assets/first_heatmap.png"]
+      },
+      {
+        "Jade": "I was not even looking at Wally 😩"
+      },
+      {
+        "Jade": "How do you feel about playing another game? I'll use your last input to learn how to be better at finding Wally."
+      }
+    ],
+    "options": ["Sure ✅", "No ❌"]
+  },
+  "game2": {
+    "chat": [
+      {
+        "Jade": "Be prepared, I'm gonna be better now!"
+      },
+      { "Game": "/Assets/second.jpg" }
+    ],
+    "options": ["I give up 😩"]
+  },
+  "result2": {
+    "chat": [
+      {
+        "Jade": "You found it! I was quite close 😁"
+      },
+      {
+        "Jade": "Again, the left image was my guess, and the right one was where I was paying attention."
+      },
+      {
+        "Guess": ["/Assets/second_guess.png", "/Assets/second_heatmap.png"]
+      },
+      {
+        "Jade": "I'm sure one more will be all that I need to find Wally with no problems!"
+      },
+      {
+        "Jade": "How do you feel about playing another game? I'll use your last input to learn how to be better at finding Wally."
+      }
+    ],
+    "options": ["Sure ✅", "No ❌"]
+  },
+  "game3": {
+    "chat": [
+      {
+        "Jade": "Be prepared, I'm gonna be better now!"
+      },
+      { "Game": "/Assets/third.jpg" }
+    ],
+    "options": ["I give up 😩"]
+  },
+  "result3": {
+    "chat": [
+      {
+        "Jade": "Hurray, I was right!"
+      },
+      {
+        "Jade": "Again, the left image was my guess, and the right one was where I was paying attention."
+      },
+      {
+        "Guess": ["/Assets/third_guess.png", "/Assets/third_heatmap.png"]
+      },
+      {
+        "Jade": "But wait, I think something is wrong 😨. I can't seem to find Wally anymore on the last image."
+      },
+      {
+        "Jade": "Could you help me one last time?"
+      }
+    ],
+    "options": ["Sure ✅", "No ❌"]
+  },
+  "game4": {
+    "chat": [
+      {
+        "Jade": "Where is him?"
+      },
+      { "Game": "/Assets/fourth.jpg" }
+    ],
+    "options": ["I give up 😩"]
+  },
+  "overfitting": {
+    "chat": [
+        {
+            "Jade": "Oh no, it seems that I can't find Wally anymore. I may have been the victim of overfitting. What? You don't know what overfitting is? No problem at all. Let me explain it to you: Overfitting is a common problem in machine learning, and it happens when a neural network becomes too good at recognizing specific examples that it has been trained on but is not able to generalise well to new, unseen examples."
+        },
+        {
+            "Jade": "To put it another way, when a neural network overfits, it becomes so focused on the specific examples it has seen during training that it becomes less able to recognize new and different examples that it hasn't seen before. This can lead to poor performance and inaccurate predictions when the neural network is put to use in the real world."
+        },
+        {
+            "Jade": "Here is an example from the last game we played:"
+        },
+        {
+            "Guess": ["/Assets/fourth_guess.png", "/Assets/fourth_heatmap.png"]
+        },
+        {
+            "Jade": "Even though Wally just changed its colour, I was not able to find him!"
+        },
+        {
+            "Jade": "To avoid overfitting, it's important to balance the amount of training data and the complexity of the neural network. Too little training data or too simple a neural network can lead to underfitting, where the neural network is not able to learn enough from the data. But too much training data or too complex a neural network can lead to overfitting, where the neural network becomes too specialized and not able to generalize well to new examples."
+        },
+        {
+            "Jade": "Moreover, overfitting can cause horrible things to happen. Would you like to know more about 'bias' and 'fairness'?"
+        }
+    ],
+    "options": ["Yes ✅", "No ❌"]
+  },
+  "bias": {
+    "chat": [
+        {
+            "Jade": "Bias and fairness are important issues to consider in the development of neural networks. At a basic level, a neural network is designed to learn patterns from data, and make predictions or classifications based on those patterns. However, if the data it is trained on is biased in some way, the neural network may also learn and propagate that bias in its predictions."
+        },
+        {
+            "Jade": "Bias can arise from a number of factors, such as imbalanced data sets or flawed data collection methods. For example, if a neural network is trained on data that disproportionately represents one group or demographic, it may not be able to identify or classify objects or people from other groups accurately."
+        },
+        {
+            "Jade": "This can have serious implications for fairness, as it can lead to systematic errors and discrimination against certain groups of people. For instance, a facial recognition system that is biased against people with darker skin tones could lead to false positives or false negatives in identifying those individuals."
+        },
+        {
+            "Jade": "To address these issues of bias and fairness, it's important to be mindful of the data that is used to train neural networks and to ensure that the data is representative of the population or phenomenon being studied. Additionally, it may be necessary to implement measures such as post-processing techniques or fairness constraints to correct for any biases that are present in the neural network's predictions."
+        },
+        {
+            "Jade": "As an AI for object detection, it's important for me to be as unbiased and fair as possible in my predictions so that I can provide reliable and accurate results for everyone who uses me."
+        },
+        {
+            "Jade": "There are many organizations and projects working to address issues of bias and fairness in machine learning and AI. Here are a few that you might be interested in supporting or contributing to:"
+        }
+    ],
+    "options": [
+      "AI Now Institute",
+      "VizWiz",
+      "The Algorithmic Justice League",
+      "Data Science for Social Good",
+      "Safe & Trusted AI"
+    ]
+  }
+}

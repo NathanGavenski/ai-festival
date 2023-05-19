@@ -1,0 +1,46 @@
+.Content {
+    overflow: auto;
+    max-height: 88vh;
+}
+
+.Chat {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    bottom: 0;
+    // overflow: auto;
+    align-items: flex-end;
+}
+
+.bubble {
+    background: rgba(224, 224, 224, 0.9);
+    font: "calibri";
+    font-weight: 500;
+    font-size: 20px;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-top: 1rem;
+}
+
+.Option {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.User {
+    background-color: #0D6EFD !important;
+    text-align: right;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.Jade {
+    align-self: flex-start;
+}
+
+.Image {
+    max-height: 10rem;
+}
