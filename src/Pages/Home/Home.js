@@ -20,7 +20,7 @@ class Home extends React.Component {
     const { key } = this.state;
     return (
       <div className={styles.Home}>
-        <Navbar />
+        <Navbar reset={this.reset} />
         <Chat key={`Chat${key}`} reset={this.reset} />
       </div>
     )

@@ -1,6 +1,13 @@
 .Content {
     overflow: auto;
     max-height: 88vh;
+    padding-left: 5rem;
+    padding-right: 5rem;
+
+    @media (max-width: 576px) {
+        padding-left: 0;
+        padding-right: 0;
+    }
 }
 
 .Chat {
@@ -8,7 +15,6 @@
     flex-direction: column;
     margin-top: 1rem;
     bottom: 0;
-    // overflow: auto;
     align-items: flex-end;
 }
 
@@ -43,4 +49,14 @@
 
 .Image {
     max-height: 10rem;
+}
+
+.Hint {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+    border-color: red;
+    border-width: 5px;
+    pointer-events: none;
 }
